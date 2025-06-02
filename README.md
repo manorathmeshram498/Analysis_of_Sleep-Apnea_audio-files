@@ -1,35 +1,35 @@
 # 🔍 Objective:
 # To analyze and visualize audio segments related to different types of sleep apnea by:
 
-Removing noise,
+- Removing noise,
 
-Extracting key features,
+- Extracting key features,
 
-Displaying audio signals, spectrograms, and zero-crossing rates.
+- Displaying audio signals, spectrograms, and zero-crossing rates.
 
 ## 📁 Folder & File Structure:
-Loads .wav audio files from Google Drive (/content/drive/MyDrive/Audio_files).
+- Loads .wav audio files from Google Drive (/content/drive/MyDrive/Audio_files).
 
-Organizes files into categories and timestamps:
+- Organizes files into categories and timestamps:
 
-Respiratory_Hypopnea
+- Respiratory_Hypopnea
 
-Respiratory_ObstructiveApnea
+- Respiratory_ObstructiveApnea
 
-Respiratory_MixedApnea
+- Respiratory_MixedApnea
 
 ## 🔧 Steps Performed:
-Mount Google Drive and install noisereduce.
+- Mount Google Drive and install noisereduce.
 
-Import Libraries:
+- Import Libraries:
 
-librosa, matplotlib, numpy, noisereduce, etc.
+ librosa, matplotlib, numpy, noisereduce, etc.
 
-Organize Files:
+- Organize Files:
 
 Parses filenames to categorize recordings and associate timestamps.
 
-Feature Extraction Function (show_features):
+- Feature Extraction Function (show_features):
 
 Loads and trims audio.
 
@@ -39,13 +39,13 @@ Plays the denoised audio inline.
 
 ## Displays:
 
-📈 Waveform
+- 📈 Waveform
 
-🎛️ Spectrogram
+- 🎛️ Spectrogram
 
-🔢 Zero Crossing Rate (ZCR) plot and average
+- 🔢 Zero Crossing Rate (ZCR) plot and average
 
-Interactive Menu:
+## Interactive Menu:
 
 Lets the user choose which category to explore.
 
@@ -54,11 +54,11 @@ Iterates through all audio segments in that category.
 Allows step-by-step navigation through segments.
 
 ## 📊 Displayed Features:
-Waveform: Visualizes amplitude over time.
+### Waveform: Visualizes amplitude over time.
 
-Spectrogram: Shows frequency intensity over time.
+### Spectrogram: Shows frequency intensity over time.
 
-ZCR: Measures how often the signal crosses zero — useful for distinguishing between voiced/unvoiced sounds.
+### ZCR: Measures how often the signal crosses zero — useful for distinguishing between voiced/unvoiced sounds.
 
 ## ✅ Usefulness:
 Helps manually inspect patterns across apnea types.
