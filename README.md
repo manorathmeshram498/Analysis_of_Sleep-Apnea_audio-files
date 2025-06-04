@@ -47,11 +47,11 @@ Plays the denoised audio inline.
 
 ## Interactive Menu:
 
-Lets the user choose which category to explore.
+- Lets the user choose which category to explore.
 
-Iterates through all audio segments in that category.
+- Iterates through all audio segments in that category.
 
-Allows step-by-step navigation through segments.
+- Allows step-by-step navigation through segments.
 
 ## 📊 Displayed Features:
 ### Waveform: Visualizes amplitude over time.
